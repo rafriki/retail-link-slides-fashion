@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+* {
+  font-family: "Lato";
+  -webkit-font-smoothing: antialiased; }
+
+.navbar-default {
+  background: white;
+  border: none;
+  border-bottom: 1px solid #e2eafb; }
+
+h2 {
+  font-size: 54px;
+  margin-bottom: 40px;
+  color: #08417E; }
+
+p {
+  margin: 20px 0px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #08417E; }
+  p span {
+    font-weight: 500;
+    color: #ff7228; }
+
+section {
+  padding: 100px 0px; }
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 26px; }
+
+  p {
+    font-size: 16px; }
+
+  section {
+    padding: 50px 0px; } }
+.masthead {
+  position: relative;
+  background: url("../vid/bg.png") center;
+  background-size: cover; }
+  .masthead .masthead-video {
+    z-index: 0; }
+  .masthead .masthead-overlay {
+    background: linear-gradient(2deg, #082C65, #605CA8, #082C65);
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%; }
+  .masthead .masthead-arrow {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 50px;
+    height: 50px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    opacity: 0.4; }
+  .masthead h1 {
+    position: absolute;
+    width: 100%;
+    font-family: 'Lato', helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    font-size: 60px;
+    text-align: center;
+    height: 120px;
+    line-height: 1;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+    opacity: 0.99; }
+  .masthead h1 span {
+    font-size: 70px;
+    font-weight: 700; }
+  @media screen and (max-width: 768px) {
+    .masthead h1 {
+      font-size: 60px; }
+    .masthead h1 span {
+      font-size: 30px; } }
+  @media screen and (max-width: 767px) {
+    .masthead h1 {
+      font-size: 32px;
+      margin-top: 150px; }
+    .masthead h1 span {
+      font-size: 22px; } }
+
+body {
+  background: url("../img/pwhite.png") repeat; }
+
+#retail {
+  background: url("../img/pblue.png") repeat;
+  color: #082c65; }
+
+#different p {
+  color: #7878b6; }
+
+#expert {
+  background: url("../img/ppurple.png") repeat; }
+  #expert h2, #expert p {
+    color: white; }
+
+#team-head {
+  padding-bottom: 0px; }
+
+#team-body {
+  background: url("../img/pblue.png") repeat; }
+  #team-body .consultant {
+    padding-top: 30px; }
+    #team-body .consultant a, #team-body .consultant p {
+      font-size: 16px; }
+    #team-body .consultant h3 {
+      margin-top: 0px;
+      padding-top: 0px; }
+
+#testis .row {
+  margin: 20px 0;
+  padding: 10px 0; }
+#testis blockquote p {
+  font-size: 16px; }
+
+#footer {
+  background-color: #082c65; }
+  #footer p {
+    color: white;
+    font-size: 18px; }
