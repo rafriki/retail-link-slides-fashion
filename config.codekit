@@ -3446,7 +3446,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 144306,
+		"initialSize": 511924,
 		"inputAbbreviatedPath": "\/img\/footer.png",
 		"outputAbbreviatedPath": "\/img\/footer.png",
 		"outputPathIsOutsideProject": 0,
@@ -3695,17 +3695,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
-		},
-	"\/vid\/bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.11143e+06,
-		"inputAbbreviatedPath": "\/vid\/bg.png",
-		"outputAbbreviatedPath": "\/vid\/bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		}
 	},
 "hooks": [
